@@ -3,9 +3,9 @@ import Link from 'next/link'
 
 export default function Page() {
     return (
-        <html lang="en">
+        <div>
             <h2>professional experiences page, nothing here yet</h2>
             <Link href="/">Home</Link>
-        </html>
+        </div>
     )
 }

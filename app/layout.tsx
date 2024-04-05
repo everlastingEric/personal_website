@@ -1,4 +1,6 @@
 import React from "react"
+import './global.css'
+import Navigation from "./components/navigation/navbar"
 
 export default function RootLayout({
     children,
@@ -7,10 +9,9 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-
+            {/*whatever is below here and above children should be the heading and drop down menu which stays the same for all pages*/}
             <body>
-                {/*whatever is below here and above children should be the heading and drop down menu which stays the same for all pages*/}
-                <h1>Yifei (Eric) Shen</h1>
+                <Navigation />
                 {children}
             </body>
         </html>

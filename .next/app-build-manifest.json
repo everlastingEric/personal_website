@@ -8,6 +8,7 @@
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
+      "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
     "/professional_experiences/page": [
@@ -15,10 +16,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/professional_experiences/page.js"
     ],
-    "/not-found": [
+    "/projects/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
+      "static/chunks/app/projects/page.js"
+    ],
+    "/additional_information/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/additional_information/page.js"
     ]
   }
 }

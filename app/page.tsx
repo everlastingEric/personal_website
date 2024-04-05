@@ -3,9 +3,13 @@ import Link from 'next/link'
 
 export default function Page() {
     return (
-        <html lang="en">
-            <h2>Hello, Next.js!</h2>
-            <Link href="/professional_experiences">Professional Experiences</Link>
-        </html>
+        <div className="container mx-auto px-4">
+            <h1>About Me</h1>
+            <div className="w-full h-screen">
+                <p>
+                    More information coming soon...
+                </p>
+            </div>
+        </div>
     )
 }
