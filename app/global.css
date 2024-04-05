@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Papyrus";
+    src: url("./components/fonts/papyrus.ttf");
+}
+
+@font-face {
+    font-family: "Anta-Regular";
+    src: url("./components/fonts/Anta-Regular.ttf");
+}

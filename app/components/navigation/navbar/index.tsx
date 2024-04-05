@@ -3,10 +3,13 @@ import Link from "next/link";
 
 const Navbar = () => {
     return (
-        <div className="w-full h-20 bg-emerald-800 sticky top-0">
+        <div className="w-full h-20 bg-orange-400 sticky top-0">
             <div className="container mx-auto px-4 h-full">
                 <div className="flex justify-between items-center h-full">
-                    <ul className="hidden md:flex gap-x-6 text-white">
+                    <ul className="hidden md:flex gap-x-6 text-white text-2xl font-anta">
+                        <h1>Yifei (Eric) Shen</h1>
+                    </ul>
+                    <ul className="hidden md:flex gap-x-6 text-white font-papyrus">
                         <li>
                             <Link href="/">
                                 <p>Home/About Me</p>

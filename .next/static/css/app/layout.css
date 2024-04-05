@@ -575,18 +575,45 @@ video {
   -moz-column-gap: 1.5rem;
        column-gap: 1.5rem;
 }
-.bg-emerald-800 {
+.bg-orange-400 {
   --tw-bg-opacity: 1;
-  background-color: rgb(6 95 70 / var(--tw-bg-opacity));
+  background-color: rgb(251 146 60 / var(--tw-bg-opacity));
 }
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+.font-papyrus {
+  font-family: Papyrus, san-serif;
+}
+.font-anta {
+  font-family: Anta-Regular, san-serif;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.font-normal {
+  font-weight: 400;
+}
+.font-bold {
+  font-weight: 700;
+}
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+
+@font-face {
+    font-family: "Papyrus";
+    src: url(/_next/static/media/papyrus.ec4b3304.ttf);
+}
+
+@font-face {
+    font-family: "Anta-Regular";
+    src: url(/_next/static/media/Anta-Regular.a76bf165.ttf);
+}
+
 @media (min-width: 768px) {
 
   .md\:flex {
