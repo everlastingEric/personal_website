@@ -12,7 +12,7 @@ export default function RootLayout({
             {/*whatever is below here and above children should be the heading and drop down menu which stays the same for all pages*/}
             <body>
                 <Navigation />
-                {children}
+                <div>{children}</div>
             </body>
         </html>
     )
