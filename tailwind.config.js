@@ -5,7 +5,8 @@ module.exports = {
     extend: {},
     fontFamily: {
       papyrus: ["Papyrus", "san-serif"],
-      anta: ["Anta-Regular", "san-serif"]
+      anta: ["Anta-Regular", "san-serif"],
+      sourceCodePro: ["SourceCodePro", "san-serif"]
     }
   },
   plugins: [],

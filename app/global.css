@@ -11,3 +11,8 @@
     font-family: "Anta-Regular";
     src: url("./components/fonts/Anta-Regular.ttf");
 }
+
+@font-face {
+    font-family: "SourceCodePro";
+    src: url("./components/fonts/SourceCodePro-VariableFont_wght.ttf");
+}
