@@ -29,7 +29,7 @@ const Popup = ({ children, title, backgroundGradient }: popupProps) => {
             document.removeEventListener("scroll", handleScroll);
         };
     }, [isOpen]);
-    const buttonCSS = "w-full h-80 text-8xl font-papyrus rounded-lg outline " + backgroundGradient;
+    const buttonCSS = "w-96 h-40 text-4xl font-papyrus rounded-lg border border-white hover:border-dotted hover:text-slate-400 " + backgroundGradient;
 
     return (
         <div className="px-4 py-4">
